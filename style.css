@@ -1,0 +1,145 @@
+html, body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Titles */
+
+h1 {
+    color: rgb(48, 48, 48);
+}
+
+h2 {
+    color: rgb(228, 187, 8);
+}
+
+h3 {
+    color: rgb(228, 187, 8);
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: rgb(48, 48, 48);
+    min-height: 8rem;
+}
+
+header .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .wrapper img {
+    height: 2.5rem;
+    padding: 1rem;
+}
+
+header .wrapper .input-wrap {
+    width: 14rem;
+    height: 2rem;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+header .wrapper .input-wrap input {
+    border: none;
+    background: none;
+    outline:none;
+    max-width: 10rem;
+}
+
+header .wrapper .input-wrap i {
+    padding: 0 0.5rem;
+}
+
+/* Hello section */
+
+#main {
+    background-image: url(./images/background.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* How it started */
+
+#section {
+    text-align: center;
+}
+
+#section .photos {
+   display: flex;
+   justify-content: space-around;
+}
+
+#section .photos img {
+    filter: grayscale(100%);
+    max-height: 9.5rem;
+    width: auto;
+    border-radius: 50%;
+    padding: 1rem 0;
+}
+
+#section p {
+    padding: 0 1rem;
+    font-size: small;
+}
+
+/* Contacts */
+
+#contacts .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacts .box p {
+    text-align: center;
+    width: 8rem;
+}
+
+#contacts .box:last-child {
+    padding-bottom: 1rem;
+}
+
+#contacts .box img {
+    filter: grayscale(100%);
+    height: 12rem;
+    width: auto;
+    border-radius: 50%;
+    padding: 0.5rem 0;
+}
+
+/* Footer */
+
+footer {
+    background: rgb(48, 48, 48);
+    height: 31rem;
+    border-top:15px solid rgb(228, 187, 8);
+    margin-top: auto;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+footer .container ul {
+    list-style: none;
+    padding: 0;    
+}
+
+footer .container ul li a {
+    text-decoration: none;
+    color: white;
+}
